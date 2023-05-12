@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Satoshi Lottery</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1 style="font-size: 2.5rem">Satoshi Lottery</h1>
+<a href="https://www.blockchain.com/explorer/addresses/btc/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF" target="_blank">2'000'000'000$</a>
+<p class="subline_jackpot">JACKPOT</p>
+<br>
+<p>The biggest Montepremi lottery in the world</p>
+<p>
+    <i>And it's Free</i>
+</p>
+
+<button id="start-btn">GO!</button>
+
+<br>
+
+
+<div class="try">
+
+    <p id="matches"></p>
+    <p id="address"></p>
+</div>
+
+<div class="best_match">
+    <h3>Best Match: <span id="max-prefix">0</span></h3>
+</div>
+
+<button id="stop-btn" style="position: fixed; bottom: 2rem; left: 50%; transform: translate(-50%); display: none">
+    STOP!
+</button>
+
+
+<script src="./index.js" type="module"></script>
+</body>
+</html>

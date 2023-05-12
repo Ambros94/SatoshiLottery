@@ -1,0 +1,64 @@
+:root {
+    --color-success: #89efbd;
+    --color-error: #ffd6d8;
+}
+body {
+    padding: 5vw 5rem;
+    text-align: center;
+    font-family: 'Consolas', monospace;
+}
+
+a {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.subline_jackpot {
+    margin: 1rem 0;
+}
+
+button {
+    padding: .6rem 2rem;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+#start-btn:hover {
+    background: var(--color-success);
+}
+#stop-btn:hover {
+    background: var(--color-error);
+}
+
+button:disabled {
+    background: #efefef;
+}
+
+#address, #matches {
+    font-size: 12px;
+    line-height: 16px;
+}
+#address, #matches {
+    margin-top: 2rem;
+}
+
+.try {
+    display: flex;
+    justify-content: center;
+}
+
+#matches {
+    padding-right: 10px;
+    font-weight: 800;
+    color: #0043ff;
+    text-align: right;
+}
+
+.best_match {
+    color: #0043ff;
+    position: fixed;
+    bottom: 5vw;
+    left: 5vw;
+    text-align: left;
+}
